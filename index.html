@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style1.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container-fluid text-center">
+<h1>POMODORO CLOCK</h1>
+<div class="clock">
+<div id="Date"></div>
+  <ul>
+      <li id="min"></li>
+      <li id="point">:</li>
+      <li id="sec"></li>
+  </ul>
+  </div>
+ 
+</div>
+ <div class="row container-fluid text-center ">
+   <div class="col-xs-6 sati">
+           <h1>Session Time:
+          <button class="btn btn-default" id="addWork">+</button>
+          <span id="workVal">25</span>
+          <button class="btn btn-default" id="minWork">-</button>
+   </h1>
+</div>
+
+<div class="col-xs-6 sati">
+  <h1>Break time:
+          <button class="btn btn-default" id="addBreak">+</button> 
+          <span id="breakVal">5</span>
+          <button class="btn btn-default" id="minBreak">-</button>
+  </h1>
+</div>
+      </div>
+<div class="container-fluid text-center buttons">
+<button id="start">START</button>
+<button id="stop">STOP</button>
+  <button id="reset">RESET</button>
+
+</div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
